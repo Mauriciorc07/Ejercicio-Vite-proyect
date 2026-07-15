@@ -2,12 +2,19 @@
 @use "./resources/global";
 
 @use "./resources/header01";
+@use "./resources/art13";
 @use "./resources/art06";
 @use "./resources/art09";
 @use "./resources/artForm02";
 @use "./resources/moduloLoader01";
+@use "./resources/moduloNikoH2";
+@use "./resources/art15";
 
-
+// .nav01__panelInner{
+//      background: rgba(240,241,241,.85);
+//     backdrop-filter: blur(16px);
+//     -webkit-backdrop-filter: blur(16px);
+// }
 // .art14{
    
 //     @media only screen and (min-width:c.$desktop){

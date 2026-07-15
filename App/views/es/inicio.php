@@ -26,22 +26,39 @@
 
     <main>
         <section>
-            <!-- artículpo 06 -->
-            <article class="art06">
+            <!-- Artículo 13-->
+            <article class="art13">
+                <img
+                    alt="" 
+                    title=""
+                    srcset="
+                    <?= asset('assets/img/test/dummy_1800.avif') ?> 1800w,
+                    <?= asset('assets/img/test/dummy_1200.avif') ?> 1200w
+                    "
+                    sizes="
+                    (max-width:800px) 900px,
+                    1500px
+                    "
+                    src="<?= asset('assets/img/test/dummy_1200.avif') ?>"          
+                >
                 <div>
-                    <h3>Artículo 06</h3>
-                    <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Agent Smith erroribus reiciendis, Zion libertatem defendit dum machinae mundum regunt.</p>
-                    <a href="#" title="" class="boton">CTA</a>
-                </div>     
+                     <div>
+                    <h2 class="moduloNikoH2">SOBRE MI</h2>
+                </div>
+                    <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum. Morpheus quaerat optionem, pillula rubra aperiam systema et realitatem.</p>
+                    <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Agent Smith erroribus reiciendis et Zion libertatem defendit.</p>
+                    <a href="#" class="boton">CTA</a>
+                </div>
             </article>
-        </section>
-    
-
+        </section>  
+       
         <section>
             <!-- artículo 09 -->
             <article class="art09">
 
-                <h3>HERRAMIENTAS /SKILLS</h3>
+                 <div>
+                    <h2 class="moduloNikoH2">HERRAMIENTAS / SKILLS</h2>
+                </div>
 
                 <div class="art09-content">
 
@@ -58,7 +75,7 @@
                         </li>
                         <li>
                         <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
-                        <span>Matrix ipsum: Zion vigilat.</span>
+                        <span>sass</span>
                         </li>
                         <!-- <li>
                         <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
@@ -80,7 +97,7 @@
                         </li>
                         <li>
                         <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
-                        <span>sass</span>
+                        <span>C++</span>
                         </li>
                         <li>
                         <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
@@ -103,10 +120,43 @@
         </section>
 
         <section>
+            <!-- art15 -->
+            <article class="art15">
+          
+                <div>
+                    <h2 class="moduloNikoH2">PROYECTOS Y COLABORACIONES</h2>
+                </div>
+
+                <div>
+                    <a href="" class="item">
+                    <h4>Matrix ipsum 01</h4>
+                    <p>Neo eligendi veritatis codicem, dum pillula rubra realitatem aperit.</p>
+                    <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix" width="700" height="700">              
+                    </a>
+
+                    <a href="" class="item">
+                    <h4>Matrix ipsum 02</h4>
+                    <p>Morpheus quaerat optionem et Trinity per simulacrum navigat.</p>
+                    <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
+                    </a>
+                    
+                    <a href="" class="item">
+                    <h4>Matrix ipsum 03</h4>
+                    <p>Agent Smith codicem custodit, sed Zion machinis resistit.</p>
+                    <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix">
+                    </a>
+                </div>
+            </article>
+          
+        </section>
+
+        <section>
         <!-- artForm02 ajax -->
         <article class="artForm02">          
 
-            <h2>Contacta con nosotros</h2>
+            <div>
+                    <h2 class="moduloNikoH2">CONTACTARNOS Y TRABAJAR  JUNTOS</h2>
+                </div>
             <div>
                 <div class="contenedor-form">
                 
@@ -253,7 +303,7 @@
                     </a>
                     </li>
                 </ul>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1886.901188915529!2d-2.0047191655624914!3d43.29790730427824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51b013f0513629%3A0x57e4ff3311f619d9!2s%C3%81rea%20Escuela%20de%20Dise%C3%B1o%20y%20Nuevas%20Tecnolog%C3%ADas!5e1!3m2!1ses!2ses!4v1768584957042!5m2!1ses!2ses" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1886.901188915529!2d-2.0047191655624914!3d43.29790730427824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51b013f0513629%3A0x57e4ff3311f619d9!2s%C3%81rea%20Escuela%20de%20Dise%C3%B1o%20y%20Nuevas%20Tecnolog%C3%ADas!5e1!3m2!1ses!2ses!4v1768584957042!5m2!1ses!2ses" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                 </div>
             </div>
         </article>
