@@ -42,16 +42,46 @@
                     src="<?= asset('assets/img/test/dummy_1200.avif') ?>"          
                 >
                 <div>
-                     <div>
+                <div>
                     <h2 class="moduloNikoH2">SOBRE MI</h2>
                 </div>
                     <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum. Morpheus quaerat optionem, pillula rubra aperiam systema et realitatem.</p>
                     <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Agent Smith erroribus reiciendis et Zion libertatem defendit.</p>
-                    <a href="#" class="boton">CTA</a>
                 </div>
             </article>
         </section>  
        
+        <section>
+            <!-- art15 -->
+            <article class="art15">
+          
+                <div>
+                    <h2 class="moduloNikoH2">PROYECTOS Y COLABORACIONES</h2>
+                </div>
+
+                <div>
+                    <a href="" class="item">
+                    <h4>Matrix ipsum 01</h4>
+                    <p>Neo eligendi veritatis codicem, dum pillula rubra realitatem aperit.</p>
+                    <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix" width="700" height="700">              
+                    </a>
+
+                    <a href="" class="item">
+                    <h4>Matrix ipsum 02</h4>
+                    <p>Morpheus quaerat optionem et Trinity per simulacrum navigat.</p>
+                    <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
+                    </a>
+                    
+                    <a href="" class="item">
+                    <h4>Matrix ipsum 03</h4>
+                    <p>Agent Smith codicem custodit, sed Zion machinis resistit.</p>
+                    <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix">
+                    </a>
+                </div>
+            </article>
+          
+        </section>
+
         <section>
             <!-- artículo 09 -->
             <article class="art09">
@@ -118,38 +148,7 @@
 
             </article>
         </section>
-
-        <section>
-            <!-- art15 -->
-            <article class="art15">
-          
-                <div>
-                    <h2 class="moduloNikoH2">PROYECTOS Y COLABORACIONES</h2>
-                </div>
-
-                <div>
-                    <a href="" class="item">
-                    <h4>Matrix ipsum 01</h4>
-                    <p>Neo eligendi veritatis codicem, dum pillula rubra realitatem aperit.</p>
-                    <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix" width="700" height="700">              
-                    </a>
-
-                    <a href="" class="item">
-                    <h4>Matrix ipsum 02</h4>
-                    <p>Morpheus quaerat optionem et Trinity per simulacrum navigat.</p>
-                    <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
-                    </a>
-                    
-                    <a href="" class="item">
-                    <h4>Matrix ipsum 03</h4>
-                    <p>Agent Smith codicem custodit, sed Zion machinis resistit.</p>
-                    <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix">
-                    </a>
-                </div>
-            </article>
-          
-        </section>
-
+        
         <section>
         <!-- artForm02 ajax -->
         <article class="artForm02">          

@@ -83,6 +83,7 @@ $tamanoControl: 2.75rem;
         width: 1.15rem;
         height: 1.15rem;
         flex: 0 0 auto;
+        filter: c.$colorCircle-svg;
     }
 
     &__submenuToggle{
@@ -127,7 +128,7 @@ $tamanoControl: 2.75rem;
     top: 0;
     z-index: 1000;
     background-color: transparent;
-    background: rgba(240, 241, 241, 0.733);
+    // background: rgba(240, 241, 241, 0.733);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-bottom: 1px solid c.$color01bis;
@@ -153,9 +154,10 @@ $tamanoControl: 2.75rem;
             visibility: visible;
             pointer-events: auto;
             transition-delay: 0s;
-            background: rgba(240, 241, 241, 0.514);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
+ 
+        //    background-color: rgba(240, 241, 241, 0.733);
+        //     backdrop-filter: blur(16px);
+        //     -webkit-backdrop-filter: blur(16px);
         }
     }
 
@@ -248,7 +250,7 @@ $tamanoControl: 2.75rem;
         visibility: hidden;
         pointer-events: none;
         background-color: transparent;
-        background: rgba(240, 241, 241, 0.733);
+        background: rgba(240, 241, 241, 0.233);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(16px);
         border-bottom: 1px solid c.$color01bis;
@@ -273,6 +275,7 @@ $tamanoControl: 2.75rem;
         min-height: 0;
         margin-inline: auto;
         overflow: hidden;
+     
         @media only screen and (min-width:c.$desktop){
             width: auto;
             min-height: auto;
@@ -280,9 +283,7 @@ $tamanoControl: 2.75rem;
             align-items: center;
             gap: 0.75rem;
             overflow: visible;
-            background: rgba(240,241,241,.85);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
+            
         }
     }
 
@@ -353,7 +354,7 @@ $tamanoControl: 2.75rem;
                 visibility: hidden;
                 pointer-events: none;
                 transform: translateY(0.35rem);
-                background-color: c.$color00;
+                // background-color: c.$color00;
                 border: 1px solid c.$color01bis;
                 border-radius: $bordeRadio;
                 box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.14);
@@ -400,7 +401,7 @@ $tamanoControl: 2.75rem;
         border: 1px solid c.$color01bis;
         border-radius: $bordeRadio;
         color: c.$color01;
-        background-color: c.$color00;
+        // background-color: c.$color00;
         font-family: c.$fuenteTitulos;
         font-size: 0.85rem;
         font-weight: 900;

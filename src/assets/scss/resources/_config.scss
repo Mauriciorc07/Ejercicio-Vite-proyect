@@ -17,14 +17,18 @@
 
 // Configuración de fuentes
 @font-face {
-    font-family: 'Montserrat';
-    src: url('../../fonts/Montserrat-Regular.ttf');
+    font-family: 'ZenDots';
+    src: url('../../fonts/ZenDots-Regular.ttf');
+}
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('../../fonts/SpaceGrotesk-VariableFont_wght.ttf');
 }
 
 
 // Variables del proyecto
-$fuenteTitulos:'Montserrat';
-$fuenteTextos:'Montserrat';
+$fuenteTitulos:'ZenDots';
+$fuenteTextos:'SpaceGrotesk';
 
 
 
@@ -39,7 +43,7 @@ $color02bis: #234b66;
 $color02svg: invert(24%) sepia(13%) saturate(2279%) hue-rotate(161deg) brightness(96%) contrast(88%);
 $color03: #d47523;
 $color03svg: invert(39%) sepia(100%) saturate(384%) hue-rotate(346deg) brightness(102%) contrast(91%);
-
+$colorCircle-svg:invert(46%) sepia(94%) saturate(443%) hue-rotate(346deg) brightness(92%) contrast(89%);
 
 
 $tablet: 800px;

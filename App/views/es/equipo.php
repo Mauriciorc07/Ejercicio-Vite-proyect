@@ -28,27 +28,13 @@
                 <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum. Morpheus quaerat optionem, pillula rubra aperiam systema et realitatem.</p>
                 <span></span>
                 <div class="cards">
-                    <div class="card">
-                        <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix">
-                        <h4>Matrix ipsum 01</h4>
-                        <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
-                        <a href="" class="moduloBoton01">
-                            <span>Módulo Botón 01</span>
-                            <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
-                        </a>
+                    <div class="card">  
+                        <h4>html,css,elementor,wordpress,javascrip,php</h4> 
                     </div>
-                    <div class="card">
-                        <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
-                        <h4>Matrix ipsum 02</h4>
-                        <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Morpheus quaerat optionem et realitatem.</p>
-                        <a href="" class="moduloBoton01">
-                            <span>Módulo Botón 01</span>
-                            <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
-                        </a>
-                    </div>
+                 
                 </div>
                 <a href="" class="moduloBoton02">
-                    <span>Módulo Botón 02</span>
+                    <span>ver completo</span>
                     <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
                 </a>
             </div>

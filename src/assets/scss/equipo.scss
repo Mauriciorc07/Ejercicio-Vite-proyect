@@ -7,3 +7,10 @@
 @use "./resources/moduloNikoH2";
 @use "./resources/moduloBoton02";
 @use "./resources/moduloBoton01";
+
+.sect01{
+   h2{
+    color: c.$color02;
+   }
+ 
+}
