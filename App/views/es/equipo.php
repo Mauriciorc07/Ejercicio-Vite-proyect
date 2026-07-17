@@ -15,12 +15,11 @@
       
     <main>
         <section>
-            <div>
-                <h1 class="moduloNikoH2">proyectoss</h1>
-            </div>
+            
+                <h1 class="moduloNikoH2">PROYECTOS</h1>
+            
         </section>
       <section class="sect01">
-        
         <article>
                 <!-- hijo 1 -->
               <div>

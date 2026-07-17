@@ -8,6 +8,9 @@
 @use "./resources/moduloBoton02";
 @use "./resources/moduloBoton01";
 
+h1{
+    font-size: clamp(3rem, 5vw, 4rem);
+}
 .sect01{
    h2{
     color: c.$color02;

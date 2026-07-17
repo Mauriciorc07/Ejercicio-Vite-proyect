@@ -36,12 +36,14 @@ $color00: white;
 $color00svg: invert(100%) sepia(100%) saturate(0%) hue-rotate(159deg) brightness(104%) contrast(104%);
 $color00bis: #ebebeb;
 $color01: #1e1e1e;
-$color01bis:rgb(176, 176, 176);
+$color01bis:rgb(131, 130, 130);
 $color01bis2: rgba(0, 0, 0, 0.5);
-$color02: #234b66;
+// $color02: #234b66;
+$color02: #06609c;
 $color02bis: #234b66;
 $color02svg: invert(24%) sepia(13%) saturate(2279%) hue-rotate(161deg) brightness(96%) contrast(88%);
-$color03: #d47523;
+// $color03: #d47523;
+$color03: #df6f0c;
 $color03svg: invert(39%) sepia(100%) saturate(384%) hue-rotate(346deg) brightness(102%) contrast(91%);
 $colorCircle-svg:invert(46%) sepia(94%) saturate(443%) hue-rotate(346deg) brightness(92%) contrast(89%);
 
@@ -141,7 +143,7 @@ a{
 .boton{
     padding: 0.7rem 4rem;
     color: $color00;  
-    background-color: $color02;
+    background-color: $color03;
     border-radius: 5px;
     letter-spacing: 3px;
     font-weight: 600;

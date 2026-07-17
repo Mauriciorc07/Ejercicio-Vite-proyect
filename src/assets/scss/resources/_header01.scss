@@ -7,16 +7,24 @@
   padding: 7rem c.$padMin 4rem;
   overflow: hidden;
   isolation: isolate;
-  background-color: c.$color01;
+   -webkit-mask-image: linear-gradient(to bottom, #000 80%, transparent);
+  mask-image: linear-gradient(to bottom, #000 80%, transparent);
+   background-color: c.$color00;
   display: grid;
   place-items: center;
+  
 
   &::after {
     content: "";
     position: absolute;
     inset: 0;
     z-index: -1;
-    background-color: rgba(c.$color01, 0.68);
+    background: linear-gradient(
+    to bottom,
+    transparent,
+    c.$color01
+   );
+
   }
 
   &__media {
@@ -50,7 +58,8 @@
   h1 {
     width: 100%;
     margin: 0;
-    color: c.$color00;
+    color: c.$color03;
+    // text-shadow: 1px 1px 2px c.$color01;
     font-size: 2.75rem;
     line-height: 1;
     letter-spacing: 0;

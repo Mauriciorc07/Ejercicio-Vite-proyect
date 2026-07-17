@@ -15,10 +15,11 @@
     <?php require app_path('includes/es/nav.php'); ?>
 
     <header class="header01">
-      <img class="header01__media" src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix">
+      <!-- <img class="header01__media" src="<?= asset('assets/img/views/hero1.webp') ?>" alt="abst"> -->
+      <img class="header01__media" src="<?= asset('assets/img/views/her.png') ?>" alt="abst">
       <div class="header01__content">
         <p class="header01__eyebrow">Header 01</p>
-        <h1>MAURICIO MAHECHA</h1>
+        <h1 >MAURICIO MAHECHA</h1>
         <p class="header01__text">Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
         <a href="#showroom-recursos" class="boton">Ver curriculum</a>
       </div>
@@ -32,14 +33,14 @@
                     alt="" 
                     title=""
                     srcset="
-                    <?= asset('assets/img/test/dummy_1800.avif') ?> 1800w,
-                    <?= asset('assets/img/test/dummy_1200.avif') ?> 1200w
+                    <?= asset('assets/img/views/fotocara.avif') ?> 1800w,
+                    <?= asset('assets/img/views/fotocara.avif') ?> 1200w
                     "
                     sizes="
                     (max-width:800px) 900px,
                     1500px
                     "
-                    src="<?= asset('assets/img/test/dummy_1200.avif') ?>"          
+                    src="<?= asset('assets/img/views/fotocara.avif') ?>"          
                 >
                 <div>
                 <div>

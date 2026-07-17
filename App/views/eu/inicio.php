@@ -14,7 +14,7 @@
     <?php require app_path('includes/eu/nav.php'); ?>
 
     <header class="header01">
-      <img class="header01__media" src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix">
+      <img class="header01__media" src="<?= asset('assets/img/views/hero1.webp') ?>" alt="Escena de Matrix">
       <div class="header01__content">
         <p class="header01__eyebrow">Header 01</p>
         <h1>Showroom de resources</h1>
