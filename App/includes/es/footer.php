@@ -31,7 +31,7 @@
         </a>
         <a class="footer01__link" href="mailto:hola@ejemplo.com">
           <img class="footer01__icon" src="<?= asset('assets/img/icons/mail.svg') ?>" alt="">
-          <span>hola@ejemplo.com</span>
+          <span>mauricio.tech12@gmail.com</span>
         </a>
         <a class="footer01__link" href="https://www.google.com/maps/search/?api=1&query=Calle+Ejemplo+1" target="_blank" rel="noopener noreferrer">
           <img class="footer01__icon" src="<?= asset('assets/img/icons/map.svg') ?>" alt="">

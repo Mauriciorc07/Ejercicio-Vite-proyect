@@ -2,6 +2,9 @@
 
 $tamanoFuente: clamp(0.9rem, 3vw, 1.1rem);
 $bordeRadio: 10px;
+$glassFormBg: rgba(255, 255, 255, 0.18);
+$glassFormBorder: rgba(255, 255, 255, 0.35);
+$placeholderColor: rgba(30, 30, 30, 0.55);
 
 .artForm02{
     // background-color: aqua;
@@ -38,8 +41,12 @@ $bordeRadio: 10px;
         }
         .contenedor-form{
             position: relative;
-            background-color: c.$color01bis;
+            background: $glassFormBg;
+            border: 1px solid $glassFormBorder;
             border-radius: $bordeRadio;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.14);
+            backdrop-filter: blur(18px) saturate(150%);
+            -webkit-backdrop-filter: blur(18px) saturate(150%);
             order: 2;
             width: 100%;           
             @media only screen and (min-width:c.$tablet){
@@ -76,7 +83,7 @@ $bordeRadio: 10px;
                     border: none;
                     border-radius: 2px;
                     &::placeholder{
-                        color: c.$color01bis;
+                        color: $placeholderColor;
                         font-family: c.$fuenteTextos;
                         font-size: 1rem;
                     }

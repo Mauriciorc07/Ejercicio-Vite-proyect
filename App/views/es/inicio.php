@@ -16,9 +16,11 @@
 
     <header class="header01">
       <!-- <img class="header01__media" src="<?= asset('assets/img/views/hero1.webp') ?>" alt="abst"> -->
-      <img class="header01__media" src="<?= asset('assets/img/views/her.png') ?>" alt="abst">
+      <video class="header01__media" autoplay muted loop playsinline>
+    <source src="<?= asset('assets/img/views/azulpunt.mp4') ?>" type="video/mp4">
+      </video>
       <div class="header01__content">
-        <p class="header01__eyebrow">Header 01</p>
+        <!-- <p class="header01__eyebrow">Hola</p> -->
         <h1 >MAURICIO MAHECHA</h1>
         <p class="header01__text">Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
         <a href="#showroom-recursos" class="boton">Ver curriculum</a>
@@ -62,19 +64,19 @@
 
                 <div>
                     <a href="" class="item">
-                    <h4>Matrix ipsum 01</h4>
+                    <h3>Matrix ipsum 01</h3>
                     <p>Neo eligendi veritatis codicem, dum pillula rubra realitatem aperit.</p>
                     <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix" width="700" height="700">              
                     </a>
 
                     <a href="" class="item">
-                    <h4>Matrix ipsum 02</h4>
+                    <h3>Matrix ipsum 02</h3>
                     <p>Morpheus quaerat optionem et Trinity per simulacrum navigat.</p>
                     <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
                     </a>
                     
                     <a href="" class="item">
-                    <h4>Matrix ipsum 03</h4>
+                    <h3>Matrix ipsum 03</h3>
                     <p>Agent Smith codicem custodit, sed Zion machinis resistit.</p>
                     <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix">
                     </a>
@@ -94,10 +96,10 @@
                 <div class="art09-content">
 
                     <div class="contenedor-lista">
-                    <h4>diseño</h4>
+                    <h3>DISEÑO</h3>
                     <ul>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="figma" title="figma">
                         <span>figma</span>
                         </li>
                         <li>
@@ -120,7 +122,7 @@
                     </div>
 
                     <div class="contenedor-lista">
-                    <h4>lenguajes de programaciòn</h4>
+                    <h3>LENGUAJES DE PROGRAMACIÒN</h3>
                     <ul>
                         <li>
                         <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
@@ -278,28 +280,23 @@
                 </div>
                 <div class="contenedor-info">
                 <ul>
+                   
                     <li>
-                    <a href="tel:+34943123123" target="_blank">
-                        <img src="<?= asset('assets/img/icons/tel.svg') ?>" alt="" title="">
-                        <span>943 123 123</span>
-                    </a>
-                    </li>
-                    <li>
-                    <a href="mailto:aranaz@webda.eus" target="_blank">
+                    <a href="mailto:mauricio.tech12@gmail.com" target="_blank">
                         <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" title="">
-                        <span>aranaz@webda.eus</span>
+                        <span>mauricio.tech12@gmial.com</span>
                     </a>
                     </li>
                     <li>
                     <a href="https://wa.me/628749350" target="_blank">
                         <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="" title="">
-                        <span>628 749 350</span>
+                        <span>602 05 1460</span>
                     </a>
                     </li>
                     <li>
                     <a href="https://maps.app.goo.gl/Kh7rZM3WF1chSZSj7" target="_blank">
                         <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="" title="">
-                        <span>C/ Juan Fermín, Juan F. Gilisagasti Kalea, 4, 1º, 20018 Donostia / San Sebastián, Gipuzkoa</span>
+                        <span>20012 Donostia / San Sebastián, Gipuzkoa</span>
                     </a>
                     </li>
                 </ul>

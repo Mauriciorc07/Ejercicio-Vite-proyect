@@ -86,25 +86,26 @@ h1{
     width: 90%;    
 }
 h2{
-    color: $color01bis;
+    // color: $color01bis;
+    color: $color03;
     font-size: 3rem;
     letter-spacing: 4px;
 }
 h3{
-    color: $color02;
+    color: $color02bis;
     font-size: clamp(1rem, 2vw, 1.4rem);
     letter-spacing: 2px;
 }
 h4{
     font-family: $fuenteTextos;
-    color: $color01;
+    color: $color03;
     font-size: 1rem;
     letter-spacing: 2px;
     font-weight: 600;
 }
 p, span, label{
     font-family: $fuenteTextos;
-    color: $color01;
+    color: $color00;
 }
 a{
     font-family: $fuenteTextos;      
