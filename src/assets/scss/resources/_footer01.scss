@@ -7,7 +7,8 @@ $anchoContenido: 1180px;
 .footer01{
     width: 100%;
     color: c.$color00;
-    background-color: c.$color01;
+    background-color: transparent;
+    
 
     &__inner{
         width: min(100% - 2rem, $anchoContenido);
@@ -87,6 +88,7 @@ $anchoContenido: 1180px;
         width: 1rem;
         height: 1rem;
         flex: 0 0 auto;
+       filter: invert(39%) sepia(100%) saturate(384%) hue-rotate(346deg) brightness(102%) contrast(91%);
     }
 
     .enlaces01{

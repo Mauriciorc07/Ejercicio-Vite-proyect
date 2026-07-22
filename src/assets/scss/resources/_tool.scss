@@ -1,0 +1,95 @@
+@use 'config' as c;
+
+.tools-section {
+  padding: 80px 20px;
+  background: #f7f9fc;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+    color: #222;
+    margin-bottom: 10px;
+  }
+
+  .section-description {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #666;
+    line-height: 1.7;
+  }
+
+  .tools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .tool-card {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-8px);
+
+      img {
+        border-color: #0077ff;
+        transform: scale(1.08);
+      }
+    }
+
+    img {
+      width: 95px;
+      height: 95px;
+      padding: 15px;
+      object-fit: contain;
+      border-radius: 50%;
+      background: #fff;
+      border: 3px solid #e6e6e6;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+    }
+
+    span {
+      margin-top: 15px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #333;
+    }
+  }
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media (max-width: 768px) {
+  .tools-section {
+    .tools-grid {
+      gap: 20px;
+    }
+
+    .tool-card {
+      width: 110px;
+
+      img {
+        width: 80px;
+        height: 80px;
+        padding: 12px;
+      }
+
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+}

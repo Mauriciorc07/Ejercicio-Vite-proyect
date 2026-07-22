@@ -40,7 +40,7 @@
         .contenedor-lista{            
             // background-color: aquamarine;
             width: 100%;
-            max-width: 500px;
+            // max-width: 500px;
             border-radius: 10px;
             padding: 1.5rem;
             transition: .5s ease-in-out;
@@ -60,7 +60,7 @@
                 padding: 3rem;
             }
             &:hover{
-                background-color: c.$color03;
+                background-color: c.$placeholderColor;
                 transform: scale(1.02);
                 >:nth-child(1){
                     color: c.$color00;
@@ -70,7 +70,7 @@
                         filter: c.$color00svg;
                     }
                     span{
-                        color: c.$color00;
+                        color: c.$color01bis;
                     }
                 } 
             }

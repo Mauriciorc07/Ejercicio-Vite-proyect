@@ -1,10 +1,10 @@
 @use 'config' as c;
 
-$tamanoFuente: clamp(0.9rem, 3vw, 1.1rem);
-$bordeRadio: 10px;
-$glassFormBg: rgba(255, 255, 255, 0.18);
-$glassFormBorder: rgba(255, 255, 255, 0.35);
-$placeholderColor: rgba(30, 30, 30, 0.55);
+// $tamanoFuente: clamp(0.9rem, 3vw, 1.1rem);
+// $bordeRadio: 10px;
+// $glassFormBg: rgba(255, 255, 255, 0.18);
+// $glassFormBorder: rgba(255, 255, 255, 0.35);
+// $placeholderColor: rgba(30, 30, 30, 0.55);
 
 .artForm02{
     // background-color: aqua;
@@ -41,9 +41,9 @@ $placeholderColor: rgba(30, 30, 30, 0.55);
         }
         .contenedor-form{
             position: relative;
-            background: $glassFormBg;
-            border: 1px solid $glassFormBorder;
-            border-radius: $bordeRadio;
+            background: c.$glassFormBg;
+            border: 1px solid c.$glassFormBorder;
+            border-radius: c.$bordeRadio;
             box-shadow: 0 20px 50px rgba(0, 0, 0, 0.14);
             backdrop-filter: blur(18px) saturate(150%);
             -webkit-backdrop-filter: blur(18px) saturate(150%);
@@ -81,9 +81,10 @@ $placeholderColor: rgba(30, 30, 30, 0.55);
                     padding: 0.5rem 1.5rem;
                     font-size: clamp(1rem, 3vw, 1.3rem);
                     border: none;
-                    border-radius: 2px;
+                    border-radius: 25px;
+                    background-color: c.$color01bis;
                     &::placeholder{
-                        color: $placeholderColor;
+                        color: c.$placeholderColor;
                         font-family: c.$fuenteTextos;
                         font-size: 1rem;
                     }
@@ -96,18 +97,18 @@ $placeholderColor: rgba(30, 30, 30, 0.55);
                 //     width: 30px;
                 //     height: 30px;
                 // }
-                textarea{
-                    min-width: 100%;
-                    max-width: 100%;
-                    min-height: 100px;
-                    max-height: 300px;
-                }
-                label{
-                    margin-top: 0.5rem;
-                    font-size: $tamanoFuente;
-                }
+                // textarea{
+                //     min-width: 100%;
+                //     max-width: 100%;
+                //     min-height: 100px;
+                //     max-height: 300px;
+                // }
+                // label{
+                //     margin-top: 0.5rem;
+                //     font-size: c.$tamanoFuente;
+                // }
                 .boton{
-                    // margin: 0 auto;
+                  
                     position: relative;
                     left: 50%;
                     transform: translateX(-50%);
@@ -187,13 +188,13 @@ $placeholderColor: rgba(30, 30, 30, 0.55);
                         filter: c.$color03svg;
                     }
                     >span{                        
-                        color: c.$color03;
-                        font-size: $tamanoFuente
+                        color: c.$color00;
+                        // font-size: c.$tamanoFuente
                     }
                 }
             }
             iframe{
-                border-radius: $bordeRadio;
+                border-radius: c.$bordeRadio;
             }
         }
     }

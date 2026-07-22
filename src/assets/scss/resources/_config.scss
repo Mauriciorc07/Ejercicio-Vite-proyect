@@ -47,6 +47,12 @@ $color03: #df6f0c;
 $color03svg: invert(39%) sepia(100%) saturate(384%) hue-rotate(346deg) brightness(102%) contrast(91%);
 $colorCircle-svg:invert(46%) sepia(94%) saturate(443%) hue-rotate(346deg) brightness(92%) contrast(89%);
 
+$bordeRadio: 10px;
+$glassFormBg: rgba(255, 255, 255, 0.18);
+$glassFormBorder: rgba(255, 255, 255, 0.35);
+$placeholderColor: rgba(30, 30, 30, 0.55);
+
+
 
 $tablet: 800px;
 $desktop: 1200px;
@@ -133,7 +139,7 @@ a{
         background-color: $color02;
     }
     h2{
-        color: $color02;
+        color: $color03;
         font-family: $fuenteTextos;
         font-size: 1.3rem;
         text-align: left;
