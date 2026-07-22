@@ -119,21 +119,21 @@
 
                 <div>
                     <a href="" class="item">
-                    <h3>Matrix ipsum 01</h3>
-                    <p>Neo eligendi veritatis codicem, dum pillula rubra realitatem aperit.</p>
-                    <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Escena de Matrix" width="700" height="700">              
+                    <h3>Vino, quesos y algo más...</h3>
+                    <p>Proyecto Ecommerce de una tienda de vinos y quesos</p>
+                    <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Vinos, quesos y algo más" title="Vinos, quesos y algo más" width="700" height="700">              
                     </a>
 
                     <a href="" class="item">
-                    <h3>Matrix ipsum 02</h3>
-                    <p>Morpheus quaerat optionem et Trinity per simulacrum navigat.</p>
-                    <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
+                    <h3>Diseño de interiores</h3>
+                    <p>Diseño web para una empresa de diseño de interiores.</p>
+                    <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Mockup de diseño de interiores" title="Mockup de diseño de interiores">
                     </a>
                     
                     <a href="" class="item">
-                    <h3>Matrix ipsum 03</h3>
-                    <p>Agent Smith codicem custodit, sed Zion machinis resistit.</p>
-                    <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix">
+                    <h3>Página web de una Hamburgeseria</h3>
+                    <p>Página web de una Hamburgeseria en Donostia</p>
+                    <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Diseño de una página web de una hamburgeseria">
                     </a>
                 </div>
             </article>
