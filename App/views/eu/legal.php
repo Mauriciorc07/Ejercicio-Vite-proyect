@@ -7,6 +7,7 @@
     <title>Lege oharra, pribatutasuna eta cookieak</title>
     <meta name="description" content="Webgunearen titulartasunari, pribatutasunari, datuen babesari eta cookieen kudeaketari buruzko lege informazio eredua.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php require app_path('includes/cookielad.php'); ?>
     <?= vite_tags($route['resources'] ?? null) ?>
   </head>
   <body>

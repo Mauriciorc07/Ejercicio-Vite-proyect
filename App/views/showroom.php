@@ -8,6 +8,7 @@
     <meta name="description" content="Showroom interno con todos los resources y componentes del stack.">
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php require app_path('includes/cookielad.php'); ?>
     <?= vite_tags($route['resources'] ?? null) ?>
   </head>
   <body>

@@ -7,6 +7,7 @@
     <title>Aviso legal, privacidad y cookies</title>
     <meta name="description" content="Información legal tipo sobre titularidad, privacidad, protección de datos y gestión de cookies.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php require app_path('includes/cookielad.php'); ?>
     <?= vite_tags($route['resources'] ?? null) ?>
   </head>
   <body>
