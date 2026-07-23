@@ -18,7 +18,7 @@
     <header class="header01">
       <!-- <img class="header01__media" src="<?= asset('assets/img/views/hero1.webp') ?>" alt="abst"> -->
       <video class="header01__media" autoplay muted loop playsinline>
-    <source src="<?= asset('assets/img/views/azulpunt.mp4') ?>" type="video/mp4">
+       <source src="<?= asset('assets/img/views/azulpunt.mp4') ?>" type="video/mp4">
       </video>
       <div class="header01__content">
         <!-- <p class="header01__eyebrow">Hola</p> -->
@@ -55,11 +55,9 @@
                 </div>
             </article>
         </section>  
-       
         <section>
             <!-- art15 -->
             <article class="art15">
-          
                 <div>
                     <h2 class="moduloNikoH2">PROYECTOS Y COLABORACIONES</h2>
                 </div>
@@ -84,7 +82,7 @@
                     </a>
                 </div>
             </article>
-          
+
         </section>
 
         <section>
@@ -154,10 +152,10 @@
             </article>
         </section>
         
-      <?php require app_path('includes/es/formulario.php'); ?>
-      
+    <?php require app_path('includes/es/formulario.php'); ?>
+
     </main>
-   
+
     <?php require app_path('includes/es/footer.php'); ?>
-  </body>
+</body>
 </html>

@@ -31,11 +31,6 @@ return [
                 'view' => 'equipo.php',
                 'resources' => 'src/assets/js/equipo.js',
             ],
-            // '/es/proyectos' => [
-            //     'view' => 'productos.php',
-            //     'resources' => 'src/assets/js/productos.js',
-            // ],
-            
             '/es/legal' => [
                 'view' => 'legal.php',
                 'resources' => 'src/assets/js/legal.js',
@@ -57,10 +52,6 @@ return [
             '/eu/nortzuk-gara' => [
                 'view' => 'equipo.php',
                 'resources' => 'src/assets/js/equipo.js',
-            ],
-            '/eu/zerbitzuak' => [
-                'view' => 'productos.php',
-                'resources' => 'src/assets/js/productos.js',
             ],
             '/eu/lege-oharra' => [
                 'view' => 'legal.php',
