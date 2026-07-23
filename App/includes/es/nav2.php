@@ -4,7 +4,7 @@
 ?>
 <nav class="nav02" data-nav02>
   <div class="nav02__inner">
-    <a class="nav02__brand" href="/es" aria-label="Ir al inicio">
+    <a class="nav02__brand" href="<?= url('/es') ?>" aria-label="Ir al inicio">
       <!-- <span class="nav01__logo" aria-hidden="true">LS</span>
       <span class="nav01__brandText">Porfolio</span> -->
    
@@ -27,8 +27,8 @@
 
         <div class="nav02__langs" aria-label="Idiomas">
           <!-- Para mantener el ejemplo sencillo, cada idioma enlaza a su inicio. -->
-          <a class="nav02__lang is-active" href="/es" lang="es" hreflang="es" aria-current="true">ES</a>
-          <a class="nav02__lang" href="/eu" lang="eu" hreflang="eu">EU</a>
+          <a class="nav02__lang is-active" href="<?= url('/es') ?>" lang="es" hreflang="es" aria-current="true">ES</a>
+          <a class="nav02__lang" href="<?= url('/eu') ?>" lang="eu" hreflang="eu">EU</a>
         </div>
       </div>
     </div>

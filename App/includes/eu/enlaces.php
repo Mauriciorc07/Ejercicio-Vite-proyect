@@ -5,21 +5,21 @@
 ?>
 <ul class="enlaces01">
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/eu">
+    <a class="enlaces01__link" href="<?= url('/eu') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/home.svg') ?>" alt="">
       <span>Hasiera</span>
     </a>
   </li>
 
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/eu/kontaktua">
+    <a class="enlaces01__link" href="<?= url('/eu/kontaktua') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/mail.svg') ?>" alt="">
       <span>Kontaktua</span>
     </a>
   </li>
 
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/eu/nortzuk-gara">
+    <a class="enlaces01__link" href="<?= url('/eu/nortzuk-gara') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/users.svg') ?>" alt="">
       <span>Nortzuk gara</span>
     </a>
@@ -28,7 +28,7 @@
   <!-- Este item contiene un segundo nivel de navegación. -->
   <li class="enlaces01__item enlaces01__item--hasSubmenu" data-nav01-submenu-item>
     <div class="enlaces01__submenuHeader">
-      <a class="enlaces01__link enlaces01__link--parent" href="/eu/zerbitzuak">
+      <a class="enlaces01__link enlaces01__link--parent" href="<?= url('/eu/zerbitzuak') ?>">
         <img class="enlaces01__icon" src="<?= asset('assets/img/icons/boxes.svg') ?>" alt="">
         <span>Zerbitzuak</span>
       </a>
@@ -39,13 +39,13 @@
 
     <ul class="enlaces01__submenu" id="<?= e($idSubmenu) ?>" data-nav01-submenu>
       <li class="enlaces01__item">
-        <a class="enlaces01__link enlaces01__link--child" href="/eu/zerbitzuak/pintorea">
+        <a class="enlaces01__link enlaces01__link--child" href="<?= url('/eu/zerbitzuak/pintorea') ?>">
           <img class="enlaces01__icon" src="<?= asset('assets/img/icons/tag.svg') ?>" alt="">
           <span>Pintorea</span>
         </a>
       </li>
       <li class="enlaces01__item">
-        <a class="enlaces01__link enlaces01__link--child" href="/eu/zerbitzuak/altzari-zaharberritzailea">
+        <a class="enlaces01__link enlaces01__link--child" href="<?= url('/eu/zerbitzuak/altzari-zaharberritzailea') ?>">
           <img class="enlaces01__icon" src="<?= asset('assets/img/icons/spark.svg') ?>" alt="">
           <span>Altzari zaharberritzailea</span>
         </a>
@@ -54,7 +54,7 @@
   </li>
 
   <li class="enlaces01__item">
-    <a class="enlaces01__link" href="/showroom">
+    <a class="enlaces01__link" href="<?= url('/showroom') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/grid.svg') ?>" alt="">
       <span>Showroom</span>
     </a>
