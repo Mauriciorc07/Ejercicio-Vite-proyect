@@ -29,60 +29,6 @@
 
     <main>
 
-        <section class="tools-section">
-            <div class="container">
-                <h2>Herramientas de Desarrollo</h2>
-                <p class="section-description">
-                    Estas son algunas de las herramientas utilizadas para el desarrollo de software,
-                    permitiendo crear aplicaciones modernas, escalables y de alto rendimiento.
-                </p>
-
-                <div class="tools-grid">
-
-                    <div class="tool-card">
-                        <img src="images/html.png" alt="HTML">
-                        <span>HTML5</span>
-                    </div>
-
-                    <div class="tool-card">
-                        <img src="images/css.png" alt="CSS">
-                        <span>CSS3</span>
-                    </div>
-
-                    <div class="tool-card">
-                        <img src="images/javascript.png" alt="JavaScript">
-                        <span>JavaScript</span>
-                    </div>
-
-                    <div class="tool-card">
-                        <img src="images/react.png" alt="React">
-                        <span>React</span>
-                    </div>
-
-                    <div class="tool-card">
-                        <img src="images/node.png" alt="Node.js">
-                        <span>Node.js</span>
-                    </div>
-
-                    <div class="tool-card">
-                        <img src="images/php.png" alt="PHP">
-                        <span>PHP</span>
-                    </div>
-
-                    <div class="tool-card">
-                        <img src="images/mysql.png" alt="MySQL">
-                        <span>MySQL</span>
-                    </div>
-
-                    <div class="tool-card">
-                        <img src="images/git.png" alt="Git">
-                        <span>Git</span>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
         <section>
             <!-- Artículo 13-->
             <article class="art13">
@@ -119,9 +65,9 @@
 
                 <div>
                     <a href="" class="item">
-                    <h3>Vino, quesos y algo más...</h3>
+                    <h3>VQS</h3>
                     <p>Proyecto Ecommerce de una tienda de vinos y quesos</p>
-                    <img src="<?= asset('assets/img/test/dummy01.avif') ?>" alt="Vinos, quesos y algo más" title="Vinos, quesos y algo más" width="700" height="700">              
+                    <img src="<?= asset('assets/img/views/hervino.avif') ?>" alt="Vinos, quesos y algo más" title="Vinos, quesos y algo más" width="700" height="700">              
                     </a>
 
                     <a href="" class="item">

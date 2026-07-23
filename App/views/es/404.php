@@ -12,6 +12,10 @@
   </head>
   <body>
     <?php require app_path('includes/es/nav.php'); ?>
+      <h1> página no found </h1>
+      <p>
+
+      </p>
     <?php require app_path('includes/es/footer.php'); ?>
 </body>
 </html>
