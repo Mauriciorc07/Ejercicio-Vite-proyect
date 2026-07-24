@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
-    <link rel="canonical" href="<?= url('/lege-oharra') ?>">
+    <link rel="canonical" href="<?= url('/eu/lege-oharra') ?>">
     <title>Lege oharra, pribatutasuna eta cookieak</title>
     <meta name="description" content="Webgunearen titulartasunari, pribatutasunari, datuen babesari eta cookieen kudeaketari buruzko lege informazio eredua.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,51 +30,51 @@
         <h2>Lege oharra</h2>
         <p>Informazio gizartearen zerbitzuei aplikatu beharreko araudia betez, webgune honen titularra honako hau dela jakinarazten da:</p>
         <ul>
-          <li>Titularra: [Izena edo sozietatearen izena]</li>
-          <li>IFZ/IFK: [Identifikazio zenbakia]</li>
+          <li>Titularra: [Izen edo sozietate-izena]</li>
+          <li>NAN/IFZ: [Identifikazio zenbakia]</li>
           <li>Helbidea: [Helbide osoa]</li>
-          <li>Posta elektronikoa: [posta@domeinua.com]</li>
+          <li>Posta elektronikoa: [correo@dominio.com]</li>
           <li>Telefonoa: [harremanetarako telefonoa]</li>
-          <li>Erregistro datuak, hala badagokio: [Merkataritza Erregistroa, liburukia, folioa, orria eta inskripzioa]</li>
+          <li>Erregistro datuak, hala badagokio: [Merkataritza Erregistroa, tomoa, folioa, orria eta inskripzioa]</li>
         </ul>
         <h3>Helburua</h3>
-        <p>Webguneak titularraren jarduerari, produktuei edo zerbitzuei buruzko informazioa eskaintzen du. Webgunera sartzeak eta hura erabiltzeak erabiltzaile izaera ematen du eta lege ohar hau onartzea dakar.</p>
+        <p>Webguneak titularraren jarduerari, produktuei edo zerbitzuei buruzko informazioa eskaintzen du. Sarbideak eta erabilerak erabiltzaile izaera ematen dute eta lege ohar hau onartzea dakar.</p>
         <h3>Webgunearen erabilera</h3>
-        <p>Erabiltzaileak webgunea modu zilegi, arduratsu eta errespetuzkoan erabiltzeko konpromisoa hartzen du, sistemak, edukiak edo zerbitzuak kaltetu gabe eta jarduera legez kanpoko, iruzurrezko edo fede onaren aurkakoak egin gabe.</p>
+        <p>Erabiltzaileak konpromisoa hartzen du webgunea modu legezkoan, arduratsuan eta errespetuz erabiltzeko, sistemetan, eduki edo zerbitzuetan kalterik eragin gabe eta legez kanpoko, iruzurrezko edo fede onaren aurkako jarduerarik egin gabe.</p>
         <h3>Jabetza intelektuala eta industriala</h3>
-        <p>Edukiak, testuak, irudiak, diseinua, iturburu kodea, markak eta bereizgarriak titularrarenak edo haren lizentziadunenak dira. Ez da baimentzen horiek erreproduzitzea, banatzea edo eraldatzea berariazko baimenik gabe, legeak baimentzen dituen kasuetan izan ezik.</p>
+        <p>Edukiek, testuek, irudiek, diseinuak, iturburu-kodeak, markek eta bereizgarriak titularrarenak edo haren lizentzia-baimen dutenenak dira. Ez da baimentzen haien erreprodukzioa, banaketa edo eraldaketa baimen espresurik gabe, legez baimendutako kasuetan izan ezik.</p>
         <h3>Erantzukizuna</h3>
-        <p>Titularrak informazioa eguneratuta eta eskuragarri mantentzen saiatzen da, baina ez du bermatzen akatsik, etenik edo gorabehera teknikorik ez dagoenik. Kanpoko estekek, halakorik badago, hirugarrenen webguneetara eramaten dute, eta haien baldintzak eta politikak titularrarenak ez dira.</p>
+        <p>Titularrak informazioa eguneratuta eta eskuragarri mantentzen saiatzen da, baina ez du bermatzen akats, eten edo gorabehera teknikorik egongo ez denik. Kanpoko estekek, baldin badaude, hirugarrenen webguneetara eramaten dute, eta horien baldintzak eta politikak titularrarenak ez dira.</p>
       </section>
 
       <section class="legalPage__section" id="politica-privacidad">
         <h2>Pribatutasun politika</h2>
-        <p>Webgune honen bidez jaso daitezkeen datu pertsonalak isilpean tratatuko dira eta aplikatu beharreko datuen babeserako araudiaren arabera.</p>
+        <p>Webgune honen bidez bil daitezkeen datu pertsonalak konfidentzialtasunez eta aplikatu beharreko datu babesaren araudiaren arabera tratatuko dira.</p>
         <h3>Tratamenduaren arduraduna</h3>
-        <p>Arduraduna: [Izena edo sozietatearen izena]. Kontaktua: [posta@domeinua.com]. Helbidea: [Helbide osoa].</p>
+        <p>Arduraduna: [Izen edo sozietate-izena]. Kontaktua: [correo@dominio.com]. Helbidea: [Helbide osoa].</p>
         <h3>Helburuak</h3>
-        <p>Datuak kontsultak erantzuteko, eskaerak kudeatzeko, kontratatutako zerbitzuak emateko, merkataritza edo administrazio harremana mantentzeko eta legezko betebeharrak betetzeko tratatu ahal izango dira.</p>
+        <p>Datuak kontsultak artatzeko, eskaerak kudeatzeko, kontratatutako zerbitzuak emateko, merkataritza edo administrazio harremana mantentzeko eta legezko betebeharrak betetzeko tratatu ahal izango dira. Newsletterrak, formulario aurreratuak, online salmenta edo analitika gaitzen badira, haien helburu zehatzak gehitu beharko dira.</p>
         <h3>Legitimazioa</h3>
-        <p>Tratamenduaren oinarri juridikoa interesdunaren baimena, kontratu aurreko edo kontratuzko neurriak, legezko betebeharrak betetzea edo interes legitimoa izan daiteke, kasuan kasu.</p>
+        <p>Tratamenduaren oinarri juridikoa izan daiteke interesdunaren baimena, kontratu aurreko edo kontratu betebeharrak betetzea, legezko obligazioak betetzea edo, aplikagarria denean, interes legitimoa.</p>
         <h3>Kontserbazioa</h3>
-        <p>Datuak bildu ziren helburua betetzeko behar den denboran gordeko dira eta, ondoren, legezko erantzukizunak artatzeko behar diren epeetan.</p>
+        <p>Datuak bildutako helburua betetzeko behar den denboran gordeko dira eta, ondoren, balizko erantzukizun legalak artatzeko behar diren epeetan.</p>
         <h3>Hartzaileak</h3>
-        <p>Ez zaizkie datuak hirugarrenei jakinaraziko, legezko betebeharra dagoenean edo zerbitzua emateko tratamendu enkargatuak behar direnean izan ezik, hala nola web ostatua, posta elektronikoa, mantentze teknikoa edo kudeaketa tresnak.</p>
-        <h3>Eskubideak</h3>
-        <p>Interesdunak datuetara sartzeko, datuak zuzentzeko, ezabatzeko, tratamendua mugatzeko, aurka egiteko, eramangarritasuna eskatzeko eta baimena kentzeko eskubideak erabil ditzake [posta@domeinua.com] helbidera idatziz. Halaber, Datuak Babesteko Espainiako Agentzian erreklamazioa aurkez dezake.</p>
+        <p>Datuak ez zaizkie hirugarrenei jakinaraziko legezko obligazioagatik ez bada edo zerbitzua emateko beharrezkoa denean tratamendu-arduradunen bitartez, hala nola web ostatua, posta elektronikoa, mantentze teknikoa edo kudeaketa tresnak.</p>
+        <h3>Esku-eskubideak</h3>
+        <p>Interesdunak eskubidea du bere datuetara sartzeko, zuzentzeko, ezabatzeko, aurka egiteko, tratamendua mugatzeko, datuak eramateko eta baimena kentzeko [correo@dominio.com] helbidera idatziz. Halaber, Espainiako Datuak Babesteko Agentzian erreklamazioa aurkeztu dezake tratamendua araudiarekin bat ez datorrela iruditzen bazaio.</p>
       </section>
 
       <section class="legalPage__section" id="gestion-cookies">
         <h2>Cookieen kudeaketa</h2>
-        <p>Stack honek ez du cookie ez-teknikorik instalatzen lehenespenez. Azken proiektuak analitika, publizitatea, txertatutako mapak, bideoak, sare sozialak edo hirugarrenen beste zerbitzu batzuk erabiltzen baditu, informazio eta baimen sistema gehitu beharko da dagokionean.</p>
+        <p>Stack honek ez ditu teknikoki beharrezkoak ez diren cookieak instalatzen lehenetsita. Amaierako proiektuak analitika, publizitatea, mapa txertatuak, bideoak, sare sozialak edo hirugarrenen bestelako zerbitzuak badakartza, informazio eta baimen sistema bat gehitu beharko da dagokionean.</p>
         <h3>Cookie motak</h3>
         <ul>
           <li>Cookie teknikoak: nabigazioa eta oinarrizko funtzioak ahalbidetzen dituzte. Normalean ez dute baimenik behar.</li>
-          <li>Lehentasun, analitika, publizitate edo hirugarrenen cookieak: informazio argia eta, hala badagokio, instalatu aurreko baimena behar dute.</li>
+          <li>Lehentasun, analitika, publizitate edo hirugarrenen cookieak: informazio argia eta, dagokionean, instalatu aurretiko baimena behar dute.</li>
         </ul>
-        <h3>Nola aldatu baimena</h3>
-        <p>Cookie kudeatzaile bat ezartzen denean, erabiltzaileak cookieak onartu, baztertu edo konfiguratu ahal izan beharko ditu erraztasun berarekin, eta baimena geroago ere kendu ahal izango du atal honetatik.</p>
-        <p class="legalPage__notice">Egokitu beharreko txantiloia: ordezkatu bloke hau benetako konfigurazio botoiarekin proiektuak baimena behar duten cookieak erabiltzen dituenean.</p>
+        <h3>Baimena nola aldatu</h3>
+        <p>Cookie kudeatzailea ezartzen denean, erabiltzaileak cookieak onartu, ukatu edo konfiguratzeko aukera izan beharko du erraztasun berarekin, eta geroago ere baimena kendu ahal izango du atal honetatik.</p>
+        <p class="legalPage__notice">Egokitzeke dagoen txantiloia: ordezkatu bloke hau konfigurazio botoi errealarekin, proiektuak baimena behar duten cookieak baditu.</p>
       </section>
     </main>
 

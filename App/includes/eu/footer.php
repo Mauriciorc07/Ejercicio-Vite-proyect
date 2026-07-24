@@ -1,13 +1,12 @@
 <?php
-// Footer en euskera. Los textos, rutas y datos de contacto se editan aquí
-// sin depender de arrays de configuración ni de condiciones de idioma.
+// Footer en euskera. Los textos y rutas se adaptan sin cambiar la estructura.
 ?>
 <footer class="footer01">
   <div class="footer01__inner">
     <section class="footer01__column" aria-labelledby="footer01-menu-title-eu">
       <h2 class="footer01__title" id="footer01-menu-title-eu">Nabigazioa</h2>
       <?php
-      // Se reutiliza el listado para no mantener dos menús diferentes.
+      // Zerrenda bera berrerabiltzen da menu desberdinak mantendu gabe.
       $idSubmenu = 'footer-zerbitzuak-eu';
       require app_path('includes/eu/enlaces.php');
       ?>
@@ -25,27 +24,23 @@
     <section class="footer01__column" aria-labelledby="footer01-contact-title-eu">
       <h2 class="footer01__title" id="footer01-contact-title-eu">Kontaktua</h2>
       <address class="footer01__address">
-        <a class="footer01__link" href="tel:+34000000000">
+        <a class="footer01__link" href="tel:+34602051460">
           <img class="footer01__icon" src="<?= asset('assets/img/icons/phone.svg') ?>" alt="">
-          <span>+34 000 000 000</span>
+          <span>+34 602 05 1460</span>
         </a>
-        <a class="footer01__link" href="mailto:hola@ejemplo.com">
+        <a class="footer01__link" href="mailto:mauricio.tech12@gmail.com">
           <img class="footer01__icon" src="<?= asset('assets/img/icons/mail.svg') ?>" alt="">
-          <span>hola@ejemplo.com</span>
-        </a>
-        <a class="footer01__link" href="https://www.google.com/maps/search/?api=1&query=Calle+Ejemplo+1" target="_blank" rel="noopener noreferrer">
-          <img class="footer01__icon" src="<?= asset('assets/img/icons/map.svg') ?>" alt="">
-          <span>Ikusi Google Mapsen</span>
+          <span>mauricio.tech12@gmail.com</span>
         </a>
         <p class="footer01__text">
           <img class="footer01__icon" src="<?= asset('assets/img/icons/pin.svg') ?>" alt="">
-          <span>Calle Ejemplo 1, 00000 Ciudad</span>
+          <span>20012 Donostia / San Sebastián, Gipuzkoa</span>
         </p>
       </address>
     </section>
   </div>
 
   <div class="footer01__bottom">
-    <p>xxxx-ek garatua. &copy; <?= date('Y') ?> Eskubide guztiak erreserbatuta.</p>
+    <p>Mauricio Mahecha-k garatua. &copy; <?= date('Y') ?> Eskubide guztiak erreserbatuta.</p>
   </div>
 </footer>

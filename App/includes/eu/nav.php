@@ -5,8 +5,6 @@
 <nav class="nav01" data-nav01>
   <div class="nav01__inner">
     <a class="nav01__brand" href="<?= url('/eu') ?>" aria-label="Hasierara joan">
-      <span class="nav01__logo" aria-hidden="true">LS</span>
-      <span class="nav01__brandText">Liquid Stack</span>
     </a>
 
     <button class="nav01__toggle" type="button" aria-controls="nav01-menu-eu" aria-expanded="false" aria-label="Menua ireki" data-nav01-toggle data-nav01-label-open="Menua ireki" data-nav01-label-close="Menua itxi">

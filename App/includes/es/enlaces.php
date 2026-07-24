@@ -26,11 +26,11 @@
   </li>
 
   
-
+<!-- 
   <li class="enlaces01__item">
     <a class="enlaces01__link" href="<?= url('/showroom') ?>">
       <img class="enlaces01__icon" src="<?= asset('assets/img/icons/grid.svg') ?>" alt="">
       <span>Showroom</span>
     </a>
-  </li>
+  </li> -->
 </ul>

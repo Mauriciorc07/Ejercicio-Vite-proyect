@@ -13,11 +13,15 @@
   </head>
   <body>
     <?php require app_path('includes/es/nav.php'); ?>
-      <h1> Error 404 página no encontrada</h1>
-      <h2> por favor validar los datos e intenta de nuevo</h2>
-      <p>
+    <div class="404cajon">
+        <h1>404</h1>
+        <h2>¡Ups! Página no encontrada</h2>
 
-      </p>
+        <p>
+            La página que estás buscando no existe o fue movida.
+        </p>
+
+    </div>
     <?php require app_path('includes/es/footer.php'); ?>
 </body>
 </html>

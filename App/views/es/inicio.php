@@ -23,7 +23,7 @@
       <div class="header01__content">
         <!-- <p class="header01__eyebrow">Hola</p> -->
         <h1 >MAURICIO MAHECHA</h1>
-        <p class="header01__text">Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
+        <p class="header01__text">"La mejor manera de predecir el futuro es crearlo."<br> <strong>Peter Drucker. </strong> </p>
         <a href="<?= asset('assets/docs/javascript-uoc.pdf') ?>" target="_blank" class="boton">Ver curriculum</a>
       </div>
     </header>
@@ -103,21 +103,14 @@
                         <span>figma</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="photoshop" title="photoshop">
                         <span>photoshop</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="sass" title="sass">
                         <span>sass</span>
                         </li>
-                        <!-- <li>
-                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
-                        <span>Matrix ipsum: Neo eligendi.</span>
-                        </li>
-                        <li>
-                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
-                        <span>Matrix ipsum: machinae quaerunt.</span>
-                        </li> -->
+                 
                     </ul>
                     </div>
 
@@ -125,25 +118,17 @@
                     <h3>LENGUAJES DE PROGRAMACIÒN</h3>
                     <ul>
                         <li>
-                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
-                        <span>javascrip</span>
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="javascript" title="javascript">
+                        <span>javascript</span>
                         </li>
-                        <!-- <li>
-                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
-                        <span>C++</span>
-                        </li> -->
                         <li>
-                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="java" title="java">
                         <span>java.</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="phyton" title="phyton">
                         <span>phyton.</span>
                         </li>
-                        <!-- <li>
-                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
-                        <span>Matrix ipsum: realitas aperitur.</span>
-                        </li> -->
                     </ul>
                     </div>
 
