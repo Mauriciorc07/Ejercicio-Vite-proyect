@@ -29,20 +29,20 @@
           <img class="footer01__icon" src="<?= asset('assets/img/icons/phone.svg') ?>" alt="">
           <span>+34 602 05 1460 </span>
         </a>
-        <a class="footer01__link" href="mailto:hola@ejemplo.com">
+        <a class="footer01__link" href="mailto:mauricio.tech12@gmail.com">
           <img class="footer01__icon" src="<?= asset('assets/img/icons/mail.svg') ?>" alt="">
           <span>mauricio.tech12@gmail.com</span>
         </a>
       
         <p class="footer01__text">
           <img class="footer01__icon" src="<?= asset('assets/img/icons/pin.svg') ?>" alt="">
-          <span>Calle Ejemplo 1, 00000 Ciudad</span>
+          <span>20012 Donostia / San Sebastián, Gipuzkoa</span>
         </p>
       </address>
     </section>
   </div>
 
   <div class="footer01__bottom">
-    <p>Desarrollado por xxxx. &copy; <?= date('Y') ?> Todos los derechos reservados.</p>
+    <p>Desarrollado por MauricioMahecha. &copy; <?= date('Y') ?> Todos los derechos reservados.</p>
   </div>
 </footer>

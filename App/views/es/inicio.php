@@ -50,8 +50,8 @@
                 <div>
                     <h2 class="moduloNikoH2">SOBRE MI</h2>
                 </div>
-                    <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum. Morpheus quaerat optionem, pillula rubra aperiam systema et realitatem.</p>
-                    <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Agent Smith erroribus reiciendis et Zion libertatem defendit.</p>
+                    <p> apasionado por el desarrollo de software, con un fuerte compromiso hacia la creación de soluciones tecnológicas eficientes, escalables y de alta calidad. Me motiva el aprendizaje continuo y la adopción de nuevas tecnologías, metodologías ágiles y buenas prácticas de desarrollo, como el diseño de software, la arquitectura de aplicaciones, el control de versiones, la integración continua y la automatización de procesos.</p>
+                    <p>Además de mi desarrollo profesional, considero que la familia es el principal motor de mi vida y la base de mis valores. En mi tiempo libre disfruto del fútbol, escuchar música y viajar, actividades que fortalecen mi creatividad, capacidad de adaptación y visión global..</p>
                 </div>
             </article>
         </section>  
@@ -59,26 +59,26 @@
             <!-- art15 -->
             <article class="art15">
                 <div>
-                    <h2 class="moduloNikoH2">PROYECTOS Y COLABORACIONES</h2>
+                    <h2 class="moduloNikoH2"> MIS PROYECTOS </h2>
                 </div>
 
                 <div>
                     <a href="" class="item">
-                    <h3>VQS</h3>
+                    <h3>VQS GOURTMET</h3>
                     <p>Proyecto Ecommerce de una tienda de vinos y quesos</p>
-                    <img src="<?= asset('assets/img/views/hervino.avif') ?>" alt="Vinos, quesos y algo más" title="Vinos, quesos y algo más" width="700" height="700">              
+                    <img src="<?= asset('assets/img/views/herovino.avif') ?>" alt="Vinos, quesos y algo más" title="Vinos, quesos y algo más" width="700" height="700">              
                     </a>
 
                     <a href="" class="item">
                     <h3>Diseño de interiores</h3>
                     <p>Diseño web para una empresa de diseño de interiores.</p>
-                    <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Mockup de diseño de interiores" title="Mockup de diseño de interiores">
+                    <img src="<?= asset('assets/img/views/inteiror.avif') ?>" alt="Mockup de diseño de interiores" title="Mockup de diseño de interiores">
                     </a>
                     
                     <a href="" class="item">
-                    <h3>Página web de una Hamburgeseria</h3>
+                    <h3> web de una Hamburgeseria</h3>
                     <p>Página web de una Hamburgeseria en Donostia</p>
-                    <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Diseño de una página web de una hamburgeseria">
+                    <img src="<?= asset('assets/img/views/hamburguesa.avif') ?>" alt="Diseño de una página web de una hamburgeseria">
                     </a>
                 </div>
             </article>
@@ -99,23 +99,23 @@
                     <h3>DISEÑO</h3>
                     <ul>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="figma" title="figma">
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="figma" title="figma">
                         <span>figma</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
                         <span>photoshop</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
                         <span>sass</span>
                         </li>
                         <!-- <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
                         <span>Matrix ipsum: Neo eligendi.</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
                         <span>Matrix ipsum: machinae quaerunt.</span>
                         </li> -->
                     </ul>
@@ -125,23 +125,23 @@
                     <h3>LENGUAJES DE PROGRAMACIÒN</h3>
                     <ul>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
                         <span>javascrip</span>
                         </li>
-                        <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <!-- <li>
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
                         <span>C++</span>
-                        </li>
+                        </li> -->
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
                         <span>java.</span>
                         </li>
                         <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
                         <span>phyton.</span>
                         </li>
                         <!-- <li>
-                        <img src="<?= asset('assets/img/icons/checkmark-circle.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
                         <span>Matrix ipsum: realitas aperitur.</span>
                         </li> -->
                     </ul>

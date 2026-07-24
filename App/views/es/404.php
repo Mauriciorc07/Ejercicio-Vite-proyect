@@ -13,7 +13,8 @@
   </head>
   <body>
     <?php require app_path('includes/es/nav.php'); ?>
-      <h1> página no found </h1>
+      <h1> Error 404 página no encontrada</h1>
+      <h2> por favor validar los datos e intenta de nuevo</h2>
       <p>
 
       </p>

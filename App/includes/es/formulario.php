@@ -136,7 +136,7 @@
                     </a>
                     </li>
                     <li>
-                    <a href="https://wa.me/628749350" target="_blank">
+                    <a href="https://wa.me/602051460" target="_blank">
                         <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="" title="">
                         <span>602 05 1460</span>
                     </a>

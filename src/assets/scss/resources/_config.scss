@@ -92,20 +92,20 @@ h1{
     width: 90%;    
 }
 h2{
-    // color: $color01bis;
+  
     color: $color03;
-    font-size: 3rem;
+    font-size: clamp(1.5rem,4vw,3rem );
     letter-spacing: 4px;
 }
 h3{
-    color: $color02bis;
+    color: $color03;
     font-size: clamp(1rem, 2vw, 1.4rem);
     letter-spacing: 2px;
 }
 h4{
     font-family: $fuenteTextos;
     color: $color03;
-    font-size: 1rem;
+    font-size: 1.3rem;
     letter-spacing: 2px;
     font-weight: 600;
 }
@@ -141,7 +141,7 @@ a{
     h2{
         color: $color03;
         font-family: $fuenteTextos;
-        font-size: 1.3rem;
+        font-size: clamp(2rem,4vw,3rem);
         text-align: left;
     }
     

@@ -13,120 +13,83 @@
   </head>
   <body>
     <?php require app_path('includes/es/nav.php'); ?>
-      
-    <main>
-        <section>
-            
-                <h1 class="moduloNikoH2">PROYECTOS</h1>
-            
-        </section>
-      <section class="sect01">
-        <article>
-                <!-- hijo 1 -->
-              <div>
-                <h2 class="h2Especial">Sección 01 · Matrix ipsum</h2>
-                <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum. Morpheus quaerat optionem, pillula rubra aperiam systema et realitatem.</p>
-                <span></span>
-                <div class="cards">
-                    <div class="card">  
-                        <h4>html,css,elementor,wordpress,javascrip,php</h4> 
-                    </div>
-                 
-                </div>
-                <a href="" class="moduloBoton02">
-                    <span>ver completo</span>
-                    <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
-                </a>
-            </div>
-            <!-- hijo 2 -->
+
+<main>
+    <section>
+        
+            <h1 class="moduloNikoH2">PROYECTOS</h1>
+        
+    </section>
+    <section class="sect01">
+    <article>
+            <!-- hijo 1 -->
             <div>
-                <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
+            <h2 class="h2Especial">VQS, tienda gourtmet</h2>
+            <p>En este proyecto el objetivo es crear un e-commerce completo para la venta de productos gourmet.</p>
+            <span></span>
+            <div class="cards">
+                <div class="card"> 
+                    <h4>Tecnologia utilizada</h4> 
+                    <p>html,css,elementor,wordpress,javascrip,php</p>
+                </div>
+                
             </div>
+        
+        </div>
+        <!-- hijo 2 -->
+        <div>
+            <img src="<?= asset('assets/img/views/herovino.avif') ?>" alt="vqs vinos" title="vqs vinos" >
+        </div>
+    </article>
+    </section>
+
+    <section class="sect01">
+        <article>
+            <!-- hijo 1 -->
+            <div>
+            <h2 class="h2Especial">Empresa de Diseño de interior</h2>
+            <p>el proposito para este proyecto fue completo desde el branding, se creo el diseño de marca, logo y se realizo la porducciòn web completo.</p>
+            <span></span>
+            <div class="cards">
+                <div class="card">
+                    <h4>Tecnologia utilizada</h4>
+                    <p>html,css,figma,javascrip,php</p>
+                </div>
+                
+            </div>
+            </div>
+                <!-- hijo 2 -->
+            <div>
+                <img src="<?= asset('assets/img/views/inteiror.avif') ?>" alt="diseño interior" title="diseño interior"  >
+            </div>
+        
         </article>
-      </section>
+    </section>
 
-      <section class="sect01">
-          <article>
-              <!-- hijo 1 -->
-              <div>
-                <h2 class="h2Especial">Sección 01 · Matrix ipsum</h2>
-                <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum. Morpheus quaerat optionem, pillula rubra aperiam systema et realitatem.</p>
-                <span></span>
-                <div class="cards">
-                    <div class="card">
-                        <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix">
-                        <h4>Matrix ipsum 01</h4>
-                        <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
-                        <a href="" class="moduloBoton01">
-                            <span>Módulo Botón 01</span>
-                            <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
-                        </a>
-                    </div>
-                    <div class="card">
-                        <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
-                        <h4>Matrix ipsum 02</h4>
-                        <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Morpheus quaerat optionem et realitatem.</p>
-                        <a href="" class="moduloBoton01">
-                            <span>Módulo Botón 01</span>
-                            <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
-                        </a>
-                    </div>
+    <section class="sect01">
+        <article>
+            <!-- hijo 1 -->
+            <div>
+            <h2 class="h2Especial">Página de Hamburguesa BUEY BURGUER</h2>
+            <p>El objetivo fue diseñar una pagina para la empresa de hamburguesa en la cual se quiso mostrar el producto estrella.</p>
+            <span></span>
+            <div class="cards">
+                <div class="card">
+                    <h4>Tecnologia utilizada</h4>
+                    <p>html,css,figma,javascript</p>
                 </div>
-                <a href="" class="moduloBoton02">
-                    <span>Módulo Botón 02</span>
-                    <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
-                </a>
-              </div>
-                 <!-- hijo 2 -->
-              <div>
-                  <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
-              </div>
-          
-          </article>
-      </section>
+                
+            </div>
+            </div>
+                <!-- hijo 2 -->
+            <div>
+                <img src="<?= asset('assets/img/views/hamburguesa.avif') ?>" alt="hamburgueseria" title="hamburgueseria" >
+            </div>
+        
+        </article>
+    </section>
 
-      <section class="sect01">
-          <article>
-              <!-- hijo 1 -->
-              <div>
-                <h2 class="h2Especial">Sección 01 · Matrix ipsum</h2>
-                <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum. Morpheus quaerat optionem, pillula rubra aperiam systema et realitatem.</p>
-                <span></span>
-                <div class="cards">
-                    <div class="card">
-                        <img src="<?= asset('assets/img/test/dummy04.avif') ?>" alt="Escena de Matrix">
-                        <h4>Matrix ipsum 01</h4>
-                        <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Neo eligendi veritatis codicem et simulacrum.</p>
-                        <a href="" class="moduloBoton01">
-                            <span>Módulo Botón 01</span>
-                            <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
-                        </a>
-                    </div>
-                    <div class="card">
-                        <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
-                        <h4>Matrix ipsum 02</h4>
-                        <p>Matrix ipsum dolor sit amet, consectetur adipisicing elit. Morpheus quaerat optionem et realitatem.</p>
-                        <a href="" class="moduloBoton01">
-                            <span>Módulo Botón 01</span>
-                            <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
-                        </a>
-                    </div>
-                </div>
-                <a href="" class="moduloBoton02">
-                    <span>Módulo Botón 02</span>
-                    <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
-                </a>
-              </div>
-                 <!-- hijo 2 -->
-              <div>
-                  <img src="<?= asset('assets/img/test/dummy03.avif') ?>" alt="Escena de Matrix">
-              </div>
-          
-          </article>
-      </section>
-      
-
-    </main>
+</main>
 
 
     <?php require app_path('includes/es/footer.php'); ?>
