@@ -114,9 +114,9 @@
         // div de la imagen
         >:nth-child(2){
             overflow: hidden;
-            border-radius: 80px;
+            // border-radius: 80px;
             width: 100%;
-            height: 40dvh;
+            height: 50dvh;
             position: relative;
             @media only screen and (min-width:c.$tablet){
                 &{

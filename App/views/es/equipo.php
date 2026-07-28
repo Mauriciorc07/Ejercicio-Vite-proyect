@@ -18,7 +18,7 @@
     <section>
         
             <h1 class="moduloNikoH2">PROYECTOS</h1>
-        
+         
     </section>
     <section class="sect01">
     <article>
@@ -34,15 +34,53 @@
                 </div>
                 
             </div>
-        
+             <a href="" class="moduloBoton02">
+                    <span>ver completo</span>
+                    <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="ver-completo" title="ver-completo">
+                </a>
         </div>
         <!-- hijo 2 -->
         <div>
             <img src="<?= asset('assets/img/views/herovino.avif') ?>" alt="vqs vinos" title="vqs vinos" >
         </div>
     </article>
+    
     </section>
+    <section>
+        
+            <div class="coverflow">
 
+                <div class="slide active"
+                    data-title="Montañas">
+                    <img src="https://picsum.photos/id/1018/900/600">
+                </div>
+
+                <div class="slide"
+                    data-title="Bosque">
+                    <img src="https://picsum.photos/id/1015/900/600">
+                </div>
+
+                <div class="slide"
+                    data-title="Lago">
+                    <img src="https://picsum.photos/id/1016/900/600">
+                </div>
+
+                <div class="slide"
+                    data-title="Ciudad">
+                    <img src="https://picsum.photos/id/1011/900/600">
+                </div>
+
+                <div class="slide"
+                    data-title="Desierto">
+                    <img src="https://picsum.photos/id/1002/900/600">
+                </div>
+
+            </div>
+
+            <div class="title"></div>
+
+    
+    </section>
     <section class="sect01">
         <article>
             <!-- hijo 1 -->
@@ -78,7 +116,10 @@
                     <h4>Tecnologia utilizada</h4>
                     <p>html,css,figma,javascript</p>
                 </div>
-                
+                <a href="" class="moduloBoton02">
+                    <span>ver completo</span>
+                    <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="ver-completo" title="ver-completo">
+                </a>
             </div>
             </div>
                 <!-- hijo 2 -->

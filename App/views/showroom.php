@@ -84,7 +84,7 @@
                   </div>
                   <a href="" class="moduloBoton02">
                       <span>Módulo Botón 02</span>
-                      <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="" title="">
+                      <img src="<?= asset('assets/img/icons/arrow-forward-outline.svg') ?>" alt="ver-completo" title="ver-completo">
                   </a>
               </div>
               <!-- hijo 2 -->

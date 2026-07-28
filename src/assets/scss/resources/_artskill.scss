@@ -1,0 +1,71 @@
+@use 'config' as c;
+
+// .artskill{
+//      // cómo es
+//     width: 100%;
+//     padding: c.$padMin;
+//       background-color: c.$color02;
+//     // como organiza a sus hijos
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: flex-start;
+//     // row-gap: 2rem;
+//     // text-align: center;
+//     @media only screen and (min-width:c.$tablet){
+//         row-gap: 3rem;
+      
+//     }
+//     @media only screen and (min-width:c.$desktop){
+//         width: 80%;
+//         background-color: bisque;
+//         justify-content: center;
+//         align-items: center;
+       
+//     }
+// }
+.skill{
+ // cómo es
+        width:100%;
+        padding: c.$padMin;
+        background-color: c.$glassFormBg;
+        box-shadow:  1px 1px 6px c.$color01bis;
+        border-radius: 3px;
+        // background-color: aqua;
+        // cómo organiza a los hijos
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        row-gap: 2rem;
+        @media only screen and (min-width:c.$tablet){
+       
+            column-gap: 3rem;
+        }
+        @media only screen and (min-width:c.$desktop){
+            width: 80%;
+            column-gap: 5rem;
+             justify-content: center;
+        }
+    }
+    .skill-content{
+        padding: c.$padMin;
+        
+        // background-color: c.$glassFormBg;
+        // box-shadow:  1px 1px 6px c.$color01bis;
+        // border-radius: 3px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:flex-start;
+        column-gap: 2rem;
+        row-gap: 2rem;
+
+        .hicon{
+            display: flex;
+            flex-direction: column;
+            // background-color: antiquewhite;
+            row-gap: 0.5rem;
+        }
+
+    }

@@ -29,13 +29,76 @@
     </header>
 
     <main>
-
+        <section class="">
+            <div>
+                    <h2 class="moduloNikoH2">HERRAMIENTAS / SKILLS</h2>
+                </div>
+            <!-- artículo skill -->
+            <!-- <article class="artskill">
+                <div>
+                    <h2 class="moduloNikoH2">HERRAMIENTAS / SKILLS</h2>
+                </div>
+            </article> -->
+            <article class="skill">
+                <h3>DISEÑO</h3>
+                <div class="skill-content">
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
+                        <span>Vite</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/icss.svg') ?>" alt="figma" title="figma">
+                        <span>Css</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/ihtml.svg') ?>" alt="figma" title="figma">
+                        <span>Html</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/iscss.svg') ?>" alt="figma" title="figma">
+                        <span>Sass</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/igithub.svg') ?>" alt="figma" title="figma">
+                        <span>Github</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
+                        <span>figma</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
+                        <span>figma</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
+                        <span>figma</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
+                        <span>figma</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
+                        <span>figma</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
+                        <span>figma</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
+                        <span>figma</span> 
+                    </div>
+                </div>
+            </article>
+        </section>
         <section>
             <!-- Artículo 13-->
             <article class="art13">
                 <img
-                    alt="" 
-                    title=""
+                    alt="retrato" 
+                    title="retrato"
                     srcset="
                     <?= asset('assets/img/views/fotocara.avif') ?> 1800w,
                     <?= asset('assets/img/views/fotocara.avif') ?> 1200w
@@ -50,8 +113,8 @@
                 <div>
                     <h2 class="moduloNikoH2">SOBRE MI</h2>
                 </div>
-                    <p> apasionado por el desarrollo de software, con un fuerte compromiso hacia la creación de soluciones tecnológicas eficientes, escalables y de alta calidad. Me motiva el aprendizaje continuo y la adopción de nuevas tecnologías, metodologías ágiles y buenas prácticas de desarrollo, como el diseño de software, la arquitectura de aplicaciones, el control de versiones, la integración continua y la automatización de procesos.</p>
-                    <p>Además de mi desarrollo profesional, considero que la familia es el principal motor de mi vida y la base de mis valores. En mi tiempo libre disfruto del fútbol, escuchar música y viajar, actividades que fortalecen mi creatividad, capacidad de adaptación y visión global..</p>
+                    <p> Apasionado por el desarrollo de software, con un fuerte compromiso hacia la creación de soluciones tecnológicas eficientes, escalables y de alta calidad. Me motiva el aprendizaje continuo y la adopción de nuevas tecnologías, metodologías ágiles y buenas prácticas de desarrollo, como el diseño web, la arquitectura de aplicaciones, el control de versiones, la integración continua y la automatización de procesos.</p>
+                    <p>Además de mi desarrollo profesional, considero que la familia es el principal motor de mi vida y la base de mis valores. En mi tiempo libre disfruto del fútbol, escuchar música y viajar, actividades que fortalecen mi creatividad, capacidad de adaptación y visión global.</p>
                 </div>
             </article>
         </section>  
@@ -89,7 +152,7 @@
             <!-- artículo 09 -->
             <article class="art09">
 
-                 <div>
+                    <div>
                     <h2 class="moduloNikoH2">HERRAMIENTAS / SKILLS</h2>
                 </div>
 
@@ -99,7 +162,7 @@
                     <h3>DISEÑO</h3>
                     <ul>
                         <li>
-                        <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="figma" title="figma">
+                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
                         <span>figma</span>
                         </li>
                         <li>
@@ -110,10 +173,8 @@
                         <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="sass" title="sass">
                         <span>sass</span>
                         </li>
-                 
+                    
                     </ul>
-                    </div>
-
                     <div class="contenedor-lista">
                     <h3>LENGUAJES DE PROGRAMACIÒN</h3>
                     <ul>
@@ -131,6 +192,9 @@
                         </li>
                     </ul>
                     </div>
+                    </div>
+
+                    
 
                 </div>
 

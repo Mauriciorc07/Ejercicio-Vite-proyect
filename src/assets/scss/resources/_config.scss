@@ -117,7 +117,10 @@ a{
     font-family: $fuenteTextos;      
     text-decoration: none;
 }
-
+.w80{
+    width: 80%;
+    margin: auto;
+}
 .h2Especial{
     // los estilos de la caja donde dentro estarán tanto el span (ralla) como el h2
     width: 100%;

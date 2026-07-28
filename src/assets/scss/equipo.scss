@@ -7,6 +7,7 @@
 @use "./resources/moduloNikoH2";
 @use "./resources/moduloBoton02";
 @use "./resources/moduloBoton01";
+@use "./resources/coverflow";
 
 h1{
     font-size: clamp(3rem, 5vw, 4rem);
