@@ -64,7 +64,7 @@
                     </div>
                     <div class="hicon">
                         <img src="<?= asset('assets/img/icons/imysql.svg') ?>" alt="figma" title="figma">
-                        <span>figma</span> 
+                        <span>Mysql</span> 
                     </div>
                     <div class="hicon">
                         <img src="<?= asset('assets/img/icons/ipostgres.svg') ?>" alt="figma" title="figma">
@@ -76,7 +76,7 @@
                     </div>
                     <div class="hicon">
                         <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
-                        <span>figma</span> 
+                        <span>Vite</span> 
                     </div>
                     <div class="hicon">
                         <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
