@@ -63,16 +63,16 @@
                         <span>Github</span> 
                     </div>
                     <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
+                        <img src="<?= asset('assets/img/icons/imysql.svg') ?>" alt="figma" title="figma">
                         <span>figma</span> 
                     </div>
                     <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
-                        <span>figma</span> 
+                        <img src="<?= asset('assets/img/icons/ipostgres.svg') ?>" alt="figma" title="figma">
+                        <span>postgres</span> 
                     </div>
                     <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
-                        <span>figma</span> 
+                        <img src="<?= asset('assets/img/icons/inode.svg') ?>" alt="figma" title="figma">
+                        <span>Node</span> 
                     </div>
                     <div class="hicon">
                         <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
