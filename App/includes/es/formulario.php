@@ -131,19 +131,19 @@
                    
                     <li>
                     <a href="mailto:mauricio.tech12@gmail.com" target="_blank">
-                        <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="" title="">
-                        <span>mauricio.tech12@gmial.com</span>
+                        <img src="<?= asset('assets/img/icons/mail-solid.svg') ?>" alt="email" title="email">
+                        <span>mauricio.tech12@gmail.com</span>
                     </a>
                     </li>
                     <li>
                     <a href="https://wa.me/602051460" target="_blank">
-                        <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/wa.svg') ?>" alt="icon-whatsapp" title="icon-whatsapp">
                         <span>602 05 1460</span>
                     </a>
                     </li>
                     <li>
                     <a href="https://maps.app.goo.gl/Kh7rZM3WF1chSZSj7" target="_blank">
-                        <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="" title="">
+                        <img src="<?= asset('assets/img/icons/map-pin-solid.svg') ?>" alt="ubicacion" title="ubicacion">
                         <span>20012 Donostia / San Sebastián, Gipuzkoa</span>
                     </a>
                     </li>

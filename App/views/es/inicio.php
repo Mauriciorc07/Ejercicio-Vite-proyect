@@ -2,10 +2,10 @@
 <html lang="<?= e($lang ?? env('LANG_DEFAULT', 'es')) ?>">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>">
+    <!-- <link rel="icon" type="image/svg+xml" href="<?= asset('favicon.svg') ?>"> -->
     <link rel="canonical" href="<?= url('/') ?>">
-    <title>porfolio</title>
-    <meta name="description" content="proyectos creados individualmente, trabajo en equipo.">
+    <title>portfolio</title>
+    <meta name="description" content="Este es el portafolio personal en el cual se muestra proyectos creados individualmente, trabajo en equipo, con las herramientas necesarias para crear sotfware, facilitando asi el crecimiento y desarrolllo profesional ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php require app_path('includes/cookielad.php'); ?>
@@ -21,7 +21,7 @@
        <source src="<?= asset('assets/img/views/azulpunt.mp4') ?>" type="video/mp4">
       </video>
       <div class="header01__content">
-        <!-- <p class="header01__eyebrow">Hola</p> -->
+         <p class="header01__eyebrow">Hola,soy</p> 
         <h1 >MAURICIO MAHECHA</h1>
         <p class="header01__text">"La mejor manera de predecir el futuro es crearlo."<br> <strong>Peter Drucker. </strong> </p>
         <a href="<?= asset('assets/docs/javascript-uoc.pdf') ?>" target="_blank" class="boton">Ver curriculum</a>
@@ -29,70 +29,7 @@
     </header>
 
     <main>
-        <section class="">
-            <div>
-                    <h2 class="moduloNikoH2">HERRAMIENTAS / SKILLS</h2>
-                </div>
-            <!-- artículo skill -->
-            <!-- <article class="artskill">
-                <div>
-                    <h2 class="moduloNikoH2">HERRAMIENTAS / SKILLS</h2>
-                </div>
-            </article> -->
-            <article class="skill">
-                <h3>DISEÑO</h3>
-                <div class="skill-content">
-                    <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
-                        <span>Vite</span> 
-                    </div>
-                    <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/icss.svg') ?>" alt="figma" title="figma">
-                        <span>Css</span> 
-                    </div>
-                    <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/ihtml.svg') ?>" alt="figma" title="figma">
-                        <span>Html</span> 
-                    </div>
-                    <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/iscss.svg') ?>" alt="figma" title="figma">
-                        <span>Sass</span> 
-                    </div>
-                    <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/igithub.svg') ?>" alt="figma" title="figma">
-                        <span>Github</span> 
-                    </div>
-                    <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/imysql.svg') ?>" alt="figma" title="figma">
-                        <span>Mysql</span> 
-                    </div>
-                    <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/ipostgres.svg') ?>" alt="figma" title="figma">
-                        <span>postgres</span> 
-                    </div>
-                    <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/inode.svg') ?>" alt="figma" title="figma">
-                        <span>Node</span> 
-                    </div>
-                    <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
-                        <span>Vite</span> 
-                    </div>
-                    <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
-                        <span>figma</span> 
-                    </div>
-                    <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
-                        <span>figma</span> 
-                    </div>
-                    <div class="hicon">
-                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
-                        <span>figma</span> 
-                    </div>
-                </div>
-            </article>
-        </section>
+       
         <section>
             <!-- Artículo 13-->
             <article class="art13">
@@ -147,9 +84,72 @@
             </article>
 
         </section>
-
-        <section>
-            <!-- artículo 09 -->
+         <section class="">
+            <div>
+                    <h2 class="moduloNikoH2">HERRAMIENTAS / SKILLS</h2>
+                </div>
+            <!-- artículo skill -->
+            <!-- <article class="artskill">
+                <div>
+                    <h2 class="moduloNikoH2">HERRAMIENTAS / SKILLS</h2>
+                </div>
+            </article> -->
+            <article class="skill">
+                <!-- <h3>DISEÑO, BD, BACKEND, FRONT</h3> -->
+                <div class="skill-content">
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/ivite.svg') ?>" alt="figma" title="figma">
+                        <span>Vite</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/icss.svg') ?>" alt="figma" title="figma">
+                        <span>Css</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/ihtml.svg') ?>" alt="figma" title="figma">
+                        <span>Html</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/iscss.svg') ?>" alt="figma" title="figma">
+                        <span>Sass</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/igithub.svg') ?>" alt="figma" title="figma">
+                        <span>Github</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/imysql.svg') ?>" alt="figma" title="figma">
+                        <span>Mysql</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/ipostgres.svg') ?>" alt="postgres" title="postgres">
+                        <span>postgres</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/inode.svg') ?>" alt="Node" title="Node">
+                        <span>Node</span> 
+                    </div>
+                    <!-- <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/favicon.svg') ?>" alt="figma" title="figma">
+                        <span>Vite</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
+                        <span>figma</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
+                        <span>figma</span> 
+                    </div>
+                    <div class="hicon">
+                        <img src="<?= asset('assets/img/icons/vite.svg') ?>" alt="figma" title="figma">
+                        <span>figma</span> 
+                    </div> -->
+                </div>
+            </article>
+        </section>
+        <!-- <section>
+          
             <article class="art09">
 
                     <div>
@@ -199,7 +199,7 @@
                 </div>
 
             </article>
-        </section>
+        </section> -->
         
     <?php require app_path('includes/es/formulario.php'); ?>
 
