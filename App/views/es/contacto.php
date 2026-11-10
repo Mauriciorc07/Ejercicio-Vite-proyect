@@ -69,7 +69,7 @@
                     </li>
                     <li>
                     <img src="<?= asset('assets/img/icons/circle.svg') ?>" alt="" title="">
-                    <span>Desarrollar: Implemento soluciones aplicando buenas prácticas de desarrollo de software.</span>
+                    <span> Implemento soluciones: aplicando buenas prácticas de desarrollo de software.</span>
                     </li>
                 
                 </ul>

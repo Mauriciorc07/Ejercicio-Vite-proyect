@@ -24,12 +24,11 @@
          <p class="header01__eyebrow">Hola,soy</p> 
         <h1 >MAURICIO MAHECHA</h1>
         <p class="header01__text">"La mejor manera de predecir el futuro es crearlo."<br> <strong>Peter Drucker. </strong> </p>
-        <a href="<?= asset('assets/docs/javascript-uoc.pdf') ?>" target="_blank" class="boton">Ver curriculum</a>
+        <a href="<?= asset('assets/docs/CVMm.pdf') ?>" target="_blank" class="boton">Ver curriculum</a>
       </div>
     </header>
 
     <main>
-       
         <section>
             <!-- Artículo 13-->
             <article class="art13">
@@ -37,14 +36,11 @@
                     alt="retrato" 
                     title="retrato"
                     srcset="
-                    <?= asset('assets/img/views/fotocara.avif') ?> 1800w,
-                    <?= asset('assets/img/views/fotocara.avif') ?> 1200w
+                    <?= asset('assets/img/views/princfto.avif') ?> 1800w,
+                    <?= asset('assets/img/views/princfto.avif') ?> 1200w
                     "
-                    sizes="
-                    (max-width:800px) 900px,
-                    1500px
-                    "
-                    src="<?= asset('assets/img/views/fotocara.avif') ?>"          
+                    sizes=" "
+                    src="<?= asset('assets/img/views/princfto.avif') ?>"          
                 >
                 <div>
                 <div>
@@ -63,19 +59,19 @@
                 </div>
 
                 <div>
-                    <a href="" class="item">
+                    <a href="<?= url('/es/proyectos') ?>" class="item">
                     <h3>VQS GOURTMET</h3>
                     <p>Proyecto Ecommerce de una tienda de vinos y quesos</p>
                     <img src="<?= asset('assets/img/views/herovino.avif') ?>" alt="Vinos, quesos y algo más" title="Vinos, quesos y algo más" width="700" height="700">              
                     </a>
 
-                    <a href="" class="item">
+                    <a href="<?= url('/es/proyectos') ?>" class="item">
                     <h3>Diseño de interiores</h3>
                     <p>Diseño web para una empresa de diseño de interiores.</p>
                     <img src="<?= asset('assets/img/views/inteiror.avif') ?>" alt="Mockup de diseño de interiores" title="Mockup de diseño de interiores">
                     </a>
                     
-                    <a href="" class="item">
+                    <a href="<?= url('/es/proyectos') ?>" class="item">
                     <h3> web de una Hamburgeseria</h3>
                     <p>Página web de una Hamburgeseria en Donostia</p>
                     <img src="<?= asset('assets/img/views/hamburguesa.avif') ?>" alt="Diseño de una página web de una hamburgeseria">

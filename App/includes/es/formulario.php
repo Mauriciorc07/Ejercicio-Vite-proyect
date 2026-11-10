@@ -5,7 +5,7 @@
         <article class="artForm02">          
 
             <div>
-                    <h2 class="moduloNikoH2">CONTACTARNOS Y TRABAJAR  JUNTOS</h2>
+                    <h2 class="moduloNikoH2">Tienes en mente un proyecto, trabajemos juntos </h2>
                 </div>
             <div>
                 <div class="contenedor-form">

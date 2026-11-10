@@ -8,7 +8,7 @@
     align-items: center;
     padding: c.$padMin;
     @media only screen and (min-width:c.$tablet){
-        width: 90%;
+        width: 80%;
         padding: initial;
         &.upsidedown{
             >img{
@@ -29,13 +29,13 @@
     >img{
         border-radius: 10px;
         width: 100%;
-        height: 40dvh;
+        height: 80dvh;
         object-fit: cover;
-        object-position: center;
+        object-position: top;
         @media only screen and (min-width:c.$desktop){
-            width: 60%;
+            width: 80%;
             height: auto;
-            max-height: 60dvh;
+            max-height: 80dvh;
         }
     }
     >div{
@@ -50,7 +50,7 @@
             width: 90%;
         }
         @media only screen and (min-width:c.$desktop){
-            width: 40%;
+            width: 100%;
         }
         >:nth-child(1){
             order: 1;
